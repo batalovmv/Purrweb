@@ -26,11 +26,13 @@
     font-size: 48px;
     font-weight: 600;
 }
+
 .t6 {
     font-size: 40px;
     font-weight: 700;
     line-height: 106%;
 }
+
 .t7 {
     font-size: 32px;
     font-weight: 700;
@@ -47,15 +49,18 @@
     font-weight: 600;
     line-height: 120%;
 }
+
 .s3 {
     font-size: 24px;
     font-weight: 400;
     line-height: 120%;
 }
+
 .s4 {
     font-size: 20px;
     font-weight: 600;
 }
+
 .s5 {
     font-size: 20px;
     font-weight: 500;
@@ -66,11 +71,13 @@
     font-weight: 400;
     line-height: 140%;
 }
+
 .s7 {
     font-size: 20px;
     font-weight: 300;
     line-height: 140%;
 }
+
 .b1 {
     font-size: 16px;
     font-weight: 500;
@@ -109,4 +116,67 @@
     font-size: 12px;
     font-weight: 400;
     line-height: 20px;
+}
+
+@media (max-width: 768px) {
+    .t1 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 106%;
+    }
+
+    .t2 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 106%;
+    }
+
+    .t3 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 106%;
+    }
+
+    .t4 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 106%;
+    }
+
+    .t5 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 106%;
+    }
+
+    .s1 {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 120%;
+    }
+
+    .s2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .s3 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .s6 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    
+}
+@media (max-width: 1024px) {
+   
+    .b6 {
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: none;
+    }
 }

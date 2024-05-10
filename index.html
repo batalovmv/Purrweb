@@ -8,26 +8,30 @@
     <link rel="stylesheet" href="page/reset.css">
     <link rel="stylesheet" href="page/style.css">
     <link rel="stylesheet" href="page/fonts.css">
+    <link rel="stylesheet" href="page/media.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <nav class="navigation-menu">
+        <ul class="navigation-menu__list container">
+            <li><a class="b1" href="#">For Business</a></li>
+            <li><a class="b1" href="#">For Customers</a></li>
+        </ul>
+    </nav>
     <header class="header">
-        <nav class="navigation-menu">
-            <ul class="navigation-menu__list container">
-                <li><a class="b1" href="#">For Business</a></li>
-                <li><a class="b1" href="#">For Customers</a></li>
-            </ul>
-        </nav>
         <div class="stick-block container">
             <a class="stick-block__logo" href="#"><img src="page/icons/logo.svg" alt="logo"></a>
-            <a class="button s4" href="#">Contact sales</a>
+            <a class=" desktop-button button s4" href="#">Contact sales</a>
+            <button class="burger-btn mobile-button" aria-label="Toggle navigation">
+                <img src="page/icons/Burger.svg" alt="Menu">
+            </button>
         </div>
     </header>
     <main class="main-content">
         <section class="hero container">
             <div class="hero-content">
-                <h2 class="t2">Everyone is an Influencer</h2>
+                <h2 class="t2">Everyone is an Influencer</h2>
                 <p class="s6">Budss is a payments as a service and WOM engine dedicated to acquisition and retention of
                     customers
                     to your business.</p>
@@ -73,36 +77,39 @@
             </div>
 
         </section>
-        <section class="scroller container">
-            <img class="scroller__img" src="page/images/phone.png" alt="phone">
-            <div class="horizontal-scrolling-items right">
-                <p class="horizontal-scrolling-items__item scroller-first-color t1">
-                    How Budss Works
-                </p>
-                <p class="horizontal-scrolling-items__item scroller-transparent  t1">
-                    How Budss Works
-                </p>
+        <section class="scroller ">
+            <div class="container">
+                <img class="scroller__img" src="page/images/phone.png" alt="phone">
+                <div class="horizontal-scrolling-items right">
+                    <p class="horizontal-scrolling-items__item scroller-first-color t1">
+                        How Budss Works
+                    </p>
+                    <p class="horizontal-scrolling-items__item scroller-transparent  t1">
+                        How Budss Works
+                    </p>
 
+                </div>
+                <div class="horizontal-scrolling-items left">
+                    <p class="horizontal-scrolling-items__item scroller-transparent  t1">
+                        How Budss Works
+                    </p>
+                    <p class="horizontal-scrolling-items__item scroller-second-color t1">
+                        How Budss Works
+                    </p>
+
+
+                </div>
+                <div class="horizontal-scrolling-items right">
+                    <p class="horizontal-scrolling-items__item scroller-third-color  t1">
+                        How Budss Works
+                    </p>
+                    <p class="horizontal-scrolling-items__item scroller-transparent t1">
+                        How Budss Works
+                    </p>
+
+                </div>
             </div>
-            <div class="horizontal-scrolling-items left">
-                <p class="horizontal-scrolling-items__item scroller-transparent  t1">
-                    How Budss Works
-                </p>
-                <p class="horizontal-scrolling-items__item scroller-second-color t1">
-                    How Budss Works
-                </p>
 
-
-            </div>
-            <div class="horizontal-scrolling-items right">
-                <p class="horizontal-scrolling-items__item scroller-third-color  t1">
-                    How Budss Works
-                </p>
-                <p class="horizontal-scrolling-items__item scroller-transparent t1">
-                    How Budss Works
-                </p>
-
-            </div>
         </section>
         <section class="percent ">
             <div class="container">
@@ -200,6 +207,12 @@
                 <a class="stick-block__logo" href="#"><img src="page/icons/logo.svg" alt="logo"></a>
                 <a href="#" class="s5">For Business</a>
                 <a href="#" class="s5">For Customers</a>
+                <div class="legal-links-media">
+                    <a class="b6" href="/privacy-policy" class="footer-link">Privacy Policy</a>
+                    <a class="b6" href="/terms-of-use-seller" class="footer-link">Terms Of Use - Seller</a>
+                    <a class="b6" href="/terms-of-use-sellers-customers" class="footer-link">Terms of Use - Sellers &
+                        Customers</a>
+                </div>
                 <button class="button s4">Contact Us</button>
                 <a href="https://www.apple.com/app-store/" class="app-link">
                     <img src="page/icons/appstore.svg" alt="App Store">
