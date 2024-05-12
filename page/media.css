@@ -74,6 +74,19 @@
         flex-direction: column;
     }
 
+    .modal-content {
+        left: 20px;
+        right: 20px;
+    }
+
+    .modal-content .flex-container {
+        flex-direction: column;
+    }
+
+    .modal-buttons {
+        margin-top: 40px;
+    }
+
     .companies {
         flex-wrap: wrap;
         width: 100%;
@@ -121,7 +134,7 @@
 
     img,
     picture {
-        max-width: fit-content;
+
         display: block;
     }
 
@@ -158,6 +171,15 @@
 @media (max-width: 768px) {
     .container {
         margin-bottom: 40px;
+        padding: 0 16px;
+    }
+
+    .hero-image {
+        margin-right: 0;
+    }
+
+    .modal-buttons {
+        flex-direction: column;
     }
 
     .button {
@@ -174,9 +196,7 @@
         display: flex;
     }
 
-    .navigation-menu__list {
-        display: none;
-    }
+
 
     .navigation-menu__list.active {
         display: flex;
@@ -246,7 +266,7 @@
     }
 
     .footer-top .button {
-       width: max-content;
+        width: max-content;
     }
 
 

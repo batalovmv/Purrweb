@@ -13,6 +13,67 @@
 </head>
 
 <body>
+    <div class="burger-menu">
+        <button class="close-btn" aria-label="Close menu">
+            &#10005;
+        </button>
+        <ul><li><a class="button s4 openModal " href="#">Contact sales</a></li>
+            <li><a class="s5" href="#">For Business</a></li>
+            <li><a class="s5" href="#">For Customers</a></li>
+            <li><a class="s5" href="#">Privacy Policy</a></li>
+            <li><a  class="s5" href="#">Terms Of Use - Seller</a></li>
+            <li><a class="s5" href="#">Terms of Use - Sellers & Customers</a></li>
+        </ul>
+    </div>
+    <div id="infoModal" class="modal">
+        <div class="modal-content ">
+            <span class="close">&times;</span>
+            <div class="flex-container">
+                <p class="s7">This website uses cookies to ensure you get the best experience on our website. They also
+                    allow us to
+                    analyze user
+                    behavior in order to constantly improve the website for you.</p>
+                <div class="modal-buttons">
+                    <button class="button s4 modal-button">Accept</button>
+                    <button class="button s4 modal-button white-button">Decline</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="registrationForm">
+                <label for="name"><span class="b3">Name<span class="red">*</span></span></label>
+                <input type="text" id="name" name="name">
+                <div class="error-message" id="name-error"></div>
+
+                <label for="email"><span class="b3">Email<span class="red">*</span></span></label>
+                <input type="email" id="email" name="email">
+                <div class="error-message" id="email-error"></div>
+
+                <label for="phone"><span class="b3">Phone<span class="red">*</span></span></label>
+                <input type="tel" id="phone" name="phone" placeholder=" +7 900 000 00 00 ">
+                <div class="error-message" id="phone-error"></div>
+
+                <label for="company"><span class="b3">Company</span></label>
+                <input type="text" id="company" name="company">
+                <div class="error-message" id="company-error"></div>
+
+                <label for="website"><span class="b3">Website/Store URL</span></label>
+                <input type="url" id="website" name="website">
+                <div class="error-message" id="website-error"></div>
+
+                <div>
+                    <span class="b5">By submitting this form you are agreeing to Budss’s <a class="form-link"
+                            href="#">Privacy Policy</a> and <a class="form-link" href="#">Terms of Use</a></span>
+                </div>
+
+                <button class="button s4 openModal" type="submit">Зарегистрироваться</button>
+            </form>
+        </div>
+    </div>
     <nav class="navigation-menu">
         <ul class="navigation-menu__list container">
             <li><a class="b1" href="#">For Business</a></li>
@@ -22,10 +83,11 @@
     <header class="header">
         <div class="stick-block container">
             <a class="stick-block__logo" href="#"><img src="page/icons/logo.svg" alt="logo"></a>
-            <a class=" desktop-button button s4" href="#">Contact sales</a>
+            <a  class=" desktop-button button s4 openModal" href="#">Contact sales</a>
             <button class="burger-btn mobile-button" aria-label="Toggle navigation">
                 <img src="page/icons/Burger.svg" alt="Menu">
             </button>
+           
         </div>
     </header>
     <main class="main-content">
@@ -35,7 +97,7 @@
                 <p class="s6">Budss is a payments as a service and WOM engine dedicated to acquisition and retention of
                     customers
                     to your business.</p>
-                <a class="button s4" href="#">Contact sales</a>
+                <a class="button s4 openModal" href="#">Contact sales</a>
             </div>
             <div class="hero-image">
                 <img src="page/images/hero.png" alt="девушка на фоне">
@@ -165,7 +227,7 @@
             <div class="container">
                 <div class="contacts__title-block">
                     <h3 class="t3">Let Your Business Grow</h3>
-                    <a class="button s4" href="#">Contact sales</a>
+                    <a class="button s4 secondary openModal" href="#">Contact sales</a>
                 </div>
 
                 <div class="flex-container">
@@ -213,7 +275,7 @@
                     <a class="b6" href="/terms-of-use-sellers-customers" class="footer-link">Terms of Use - Sellers &
                         Customers</a>
                 </div>
-                <button class="button s4">Contact Us</button>
+                <a class="button s4 openModal">Contact Us</a>
                 <a href="https://www.apple.com/app-store/" class="app-link">
                     <img src="page/icons/appstore.svg" alt="App Store">
                 </a>
