@@ -560,7 +560,7 @@ a {
     padding: 40px;
     border-radius: 20px;
     border: 1px solid #888;
-    width: 90%; 
+    width: 90%;
     max-width: 600px;
     position: absolute;
     left: 90px;
@@ -569,6 +569,13 @@ a {
 
 .modal-content button {
     margin-top: 20px;
+}
+
+#phone {
+    background-image: url('icons/russia_flag.png');
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left: 40px;
 }
 
 .close {
@@ -640,7 +647,7 @@ input.invalid {
     max-height: 60px;
 }
 
-#myModal  .modal-content {
+#myModal .modal-content {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -689,6 +696,7 @@ input.invalid {
     display: block;
     margin-bottom: 16px;
 }
+
 .burger-menu li:first-child {
     margin-bottom: 170px;
 }

@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website Title</title>
+    <title>Site</title>
     <link rel="stylesheet" href="page/reset.css">
     <link rel="stylesheet" href="page/style.css">
     <link rel="stylesheet" href="page/fonts.css">
     <link rel="stylesheet" href="page/media.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700" rel="stylesheet">
 </head>
 
 <body>
@@ -17,11 +17,12 @@
         <button class="close-btn" aria-label="Close menu">
             &#10005;
         </button>
-        <ul><li><a class="button s4 openModal " href="#">Contact sales</a></li>
+        <ul>
+            <li><a class="button s4 openModal " href="#">Contact sales</a></li>
             <li><a class="s5" href="#">For Business</a></li>
             <li><a class="s5" href="#">For Customers</a></li>
             <li><a class="s5" href="#">Privacy Policy</a></li>
-            <li><a  class="s5" href="#">Terms Of Use - Seller</a></li>
+            <li><a class="s5" href="#">Terms Of Use - Seller</a></li>
             <li><a class="s5" href="#">Terms of Use - Sellers & Customers</a></li>
         </ul>
     </div>
@@ -83,11 +84,11 @@
     <header class="header">
         <div class="stick-block container">
             <a class="stick-block__logo" href="#"><img src="page/icons/logo.svg" alt="logo"></a>
-            <a  class=" desktop-button button s4 openModal" href="#">Contact sales</a>
+            <a class=" desktop-button button s4 openModal" href="#">Contact sales</a>
             <button class="burger-btn mobile-button" aria-label="Toggle navigation">
                 <img src="page/icons/Burger.svg" alt="Menu">
             </button>
-           
+
         </div>
     </header>
     <main class="main-content">
@@ -95,12 +96,13 @@
             <div class="hero-content">
                 <h2 class="t2">Everyone is an Influencer</h2>
                 <p class="s6">Budss is a payments as a service and WOM engine dedicated to acquisition and retention of
-                    customers
-                    to your business.</p>
+                    customers to your business.</p>
                 <a class="button s4 openModal" href="#">Contact sales</a>
             </div>
             <div class="hero-image">
-                <img src="page/images/hero.png" alt="девушка на фоне">
+                <picture>
+                    <img src="page/images/hero.png" alt="девушка на фоне" loading="lazy">
+                </picture>
             </div>
         </section>
         <section class="about container">
@@ -141,7 +143,10 @@
         </section>
         <section class="scroller ">
             <div class="container">
-                <img class="scroller__img" src="page/images/phone.png" alt="phone">
+                <picture>
+                     <img class="scroller__img" src="page/images/phone.png" alt="phone">
+                    </picture>
+
                 <div class="horizontal-scrolling-items right">
                     <p class="horizontal-scrolling-items__item scroller-first-color t1">
                         How Budss Works
